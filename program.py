@@ -1,7 +1,7 @@
 def add_numbers(a, b):
     return a + b
 
-a = 5
-b = 7
+a = 12
+b = 35
 
 print(add_numbers(a, b))
