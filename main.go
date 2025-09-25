@@ -6,10 +6,12 @@ func main() {
 	a := 5
 	b := 7
 	c := 55
+	d := 7
 	fmt.Println(addNumbers(a, b))
 	fmt.Println(subNumbers(a, b))
 	fmt.Println(mulNumbers(a, b))
 	fmt.Println(c)
+	fmt.Println(d)
 }
 
 func addNumbers(a, b int) int {
