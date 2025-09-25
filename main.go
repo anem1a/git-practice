@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	a := 5
 	b := 7
-	c := 3
+	c := 55
 	fmt.Println(addNumbers(a, b))
 	fmt.Println(subNumbers(a, b))
 	fmt.Println(mulNumbers(a, b))
