@@ -1,4 +1,8 @@
 def greeting():
     return "hello world"
 
-print(greeting())
+def inc(x):
+    return x + 1
+
+x = 1
+y = 3

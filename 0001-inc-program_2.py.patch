@@ -1,0 +1,33 @@
+From 732da98245324e4d70e2e4e5eb398d8567c478d2 Mon Sep 17 00:00:00 2001
+From: anna khoborova <annhoborova@gmail.com>
+Date: Fri, 26 Sep 2025 01:58:42 +0300
+Subject: [PATCH 1/3] =?UTF-8?q?=D0=BD=D0=BE=D0=B2=D0=B0=D1=8F=20=D1=84?=
+ =?UTF-8?q?=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D1=8F=20inc=20=D0=B2=20=D1=84?=
+ =?UTF-8?q?=D0=B0=D0=B9=D0=BB=D0=B5=20program=5F2.py?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ program_2.py | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+ create mode 100644 program_2.py
+
+diff --git a/program_2.py b/program_2.py
+new file mode 100644
+index 0000000..519ad9f
+--- /dev/null
++++ b/program_2.py
+@@ -0,0 +1,9 @@
++def greeting():
++    return "hello world"
++
++def inc(x):
++    return x + 1
++
++x = 1
++print(greeting())
++print(inc(x))
+-- 
+2.49.0.windows.1
+
